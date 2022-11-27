@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16213E">
+
+    <EditText
+        android:id="@+id/Nama"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#0F3460"
+        android:padding="10dp"
+        android:hint="Nama"
+        android:textColorHint="#0096FF"
+        android:textColor="#0096FF"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/Nama"
+        android:hint="Alamat"
+        android:textColorHint="#0096FF"
+        android:background="#0F3460"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#0096FF"/>
+
+    <EditText
+        android:id="@+id/Subjek"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Nama"
+        android:hint="Subjek"
+        android:textColorHint="#0096FF"
+        android:background="#0F3460"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#0096FF"/>
+
+    <EditText
+        android:id="@+id/Pesan"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Subjek"
+        android:hint="Pesan"
+        android:textColorHint="#0096FF"
+        android:background="#0F3460"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#0096FF"/>
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Pesan"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#1D2D50"
+        android:text="Kirim"
+        android:textColor="#0096FF" />
+
+</RelativeLayout>
